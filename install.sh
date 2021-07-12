@@ -25,3 +25,6 @@ echo "==================================== TERRAFORM VERSION ===================
 terraform -version
 echo "==================================== ANSIBLE VERSION ===================================="
 ansible --version
+
+#Instaling newrelic role 
+ansible-galaxy install newrelic.newrelic-infra
